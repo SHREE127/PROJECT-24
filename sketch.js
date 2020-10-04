@@ -37,6 +37,9 @@ function draw() {
 
   drawSprites();
  
+	fill("white");
+	textSize(30);
+	text(" USE UP AND DOWN ARROW TO CONTROL BALL",100,50);
 }
 
 function keyPressed() {
