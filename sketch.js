@@ -26,7 +26,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(0);
+  background("black");
 
   ground.display();
   paper1.display();
@@ -34,12 +34,13 @@ function draw() {
   red1.display();
   red2.display();
   red3.display();
-
-  drawSprites();
- 
+	
 	fill("white");
 	textSize(30);
 	text(" USE UP AND DOWN ARROW TO CONTROL BALL",100,50);
+	
+  drawSprites();
+ 
 }
 
 function keyPressed() {
