@@ -42,13 +42,13 @@ function draw() {
 function keyPressed() {
 	if (keyCode === UP_ARROW) {
 	   
-	   Body.applyForce(paper1.body, paper1.body.position, {x: 10 , y: -13})
+	   Body.applyForce(paper1.body, paper1.body.position, {x: 10 , y: -11})
 	   
 	 }
 
 	 if (keyCode === DOWN_ARROW) {
 	   
-		Body.applyForce(paper1.body, paper1.body.position, {x: 20 , y: 20})
+		Body.applyForce(paper1.body, paper1.body.position, {x: 10 , y: 13})
 		
 	  }
    }
